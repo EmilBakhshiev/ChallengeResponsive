@@ -1,0 +1,6 @@
+@media (min-width: 320px) and (max-width: 424px) {
+  .social-links__img {
+    width: 16px;
+    height: 16px;
+  }
+}
