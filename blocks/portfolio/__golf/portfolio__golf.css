@@ -1,11 +1,11 @@
-.portfolio__corner{
-    background-image: url(../../../images/portfolio1.jpg);
+.portfolio__golf{
+    background-image: url(../../../images/portfolio2.jpg);
     min-height: 304px;
     max-width: 304px;
     background-size: cover;
     background-position: center;
     padding-top: 172px;
     padding-left: 30px;
-    padding-right: 116px;
+    padding-right: 112px;
     box-sizing: border-box;
 }

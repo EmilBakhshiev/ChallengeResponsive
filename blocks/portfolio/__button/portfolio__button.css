@@ -1,0 +1,17 @@
+.portfolio__button{
+    display: block;
+    box-sizing: border-box;
+    max-width: 120px;
+    min-height: 36px;
+    background-color: #EC1F46;
+    box-shadow: 0px 2px 0px #CE1C3E;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

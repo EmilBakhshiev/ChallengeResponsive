@@ -1,3 +1,4 @@
 .portfolio__cards{
     display: flex;
+    flex-wrap: wrap;
 }

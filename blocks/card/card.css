@@ -1,9 +1,11 @@
 .card{
         max-width: 304px;
-        max-height: 304px;
+        min-height: 304px;
         margin-right: 16px;
         position: relative;
-        
+        border-radius: 6px;
+        display: block;
+
     }
 
     .card:last-child{
