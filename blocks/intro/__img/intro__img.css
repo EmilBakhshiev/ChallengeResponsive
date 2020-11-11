@@ -1,0 +1,22 @@
+.intro__img {
+  grid-area: img;
+  background-image: url(../../../images/Keanu.jpg);
+  height: 362px;  /*не хорошо как-то получилось*/
+  width: 362px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 362px;
+  border: 11px #fff solid;
+}
+
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro__img {
+    height: 107px;
+    width: 107px;
+    border-radius: 107px;
+    border: 3px #fff solid;
+    justify-self: center;
+  }
+}

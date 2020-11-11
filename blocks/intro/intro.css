@@ -1,0 +1,29 @@
+.intro {
+  max-width: 944px;
+  display: grid;
+  grid-template-columns: 1fr 384px;
+  gap: 116px;
+  grid-template-areas: 
+  "content img";
+  padding: 113px 0 71px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    width: 83%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro {
+    width: 83%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "img"
+    "content";
+    padding: 46px 0 50px;
+    justify-content: center;
+  }
+}

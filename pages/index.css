@@ -1,5 +1,25 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/social-links/social-links.css);
+@import url(../blocks/social-links/__link/social-links__link.css);
+@import url(../blocks/social-links/__img/social-links__img.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/intro/title-main/intro__title-main.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__img/intro__img.css);
+
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title.css);
@@ -7,9 +27,6 @@
 @import url(../blocks/portfolio/__card/portfolio__card.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 
-
-
 /*modificators start*/
 @import url(../blocks/title/_place/title_place_portfolio.css);
-
 /*modificators end*/

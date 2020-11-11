@@ -1,0 +1,17 @@
+.intro__button {
+  margin-top: 38px;
+  height: 66px;
+  width: 300px;
+  font-size: 12px;
+  line-height: 15.6px;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro__button {
+    margin-top: 58px;
+    height: 44px;
+    width: 267px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+}

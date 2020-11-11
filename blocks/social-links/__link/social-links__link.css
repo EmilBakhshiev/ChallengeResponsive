@@ -1,0 +1,13 @@
+.social-links__link {
+  margin-right: 21px;
+}
+
+.social-links__link:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .social-links__link {
+    margin-right: 13px;
+  }
+}

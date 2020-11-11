@@ -7,27 +7,61 @@
   <title>Discord</title>
 </head>
 <body>
-  <main>
+  <div class="page"> <!-- Я не грузила все картинки дабы не было путаницы, только те, которые я уже использую.
+    Я невнимательная и мы не можем знать наверняка, все ли шрифты тут.
+    Если мы хотим сделать все по красоте, надо будет прийти к единому стилю в нашей писанине 
+    Если ты не согласен с какими-то моими решениями, не стесняйся, обсудим.
 
+    Пока есть адаптив только на 2 крайних значения.
+    320-424  425-767  768-1023  1024-1280  -->
+    <header class="header">
+      <img class="logo" src="images/logo.png" alt="Логотип.">  <!-- Оставить ли лого блоком, если оно нигде не переиспользуется? -->
+      <div class="social-links">  <!-- Дурацкое название у детей получилось, оставить ли таким? Это блок, он переиспользуется в футере -->
+        <a class="social-links__link" href="#">
+          <img class="social-links__img" src="images/github.png" alt="ГитХаб.">
+        </a>
+        <a class="social-links__link" href="#">
+          <img class="social-links__img" src="images/twitter.png" alt="Твиттер.">
+        </a>
+        <a class="social-links__link" href="#">
+          <img class="social-links__img" src="images/instagram.png" alt="Инстаграм.">
+        </a>
+        <a class="social-links__link" href="#">
+          <img class="social-links__img" src="images/facebook.png" alt="Фэйсбук.">
+        </a>
+      </div>
+    </header>
 
-  <section class="portfolio">
-    <div class="wrapper">
-     <h2 class="title title_place_portfolio">Выполненные проекты</h2>
-     <div class="portfolio__cards">
-       <div class="portfolio__card">
-         <img src="./images/portfolio1.jpg" alt="" class="portfolio__card-image">
+    <main class="content">
+      <section class="intro">
+        <div class="intro__content">
+          <p class="subtitle">Фрилансер</p>  <!-- Переиспользуется везде -->
+          <h1 class="intro__title-main">Петр Федоров</h1>
+          <p class="text">Разрабатываю сайты для малого и среднего бизнеса. <!-- Переиспользуется везде -->
+            У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
+          </p>
+          <button class="intro__button button">Бесплатная консультация</button> <!-- у всех кнопок разный размер, теоретически переиспользовать нельзя, только микс создать -->
+        </div>                                           <!-- но у нас 2 вида кнопок разных цветов и форм   =_=!!! -->
+        <div class="intro__img"></div>
+      </section>
+     <section class="portfolio">
+      <div class="wrapper">
+       <h2 class="title title_place_portfolio">Выполненные проекты</h2>
+       <div class="portfolio__cards">
+         <div class="portfolio__card">
+           <img src="./images/portfolio1.jpg" alt="" class="portfolio__card-image">
+         </div>
+         <div class="portfolio__card">
+          <img src="./images/portfolio2.jpg" alt="" class="portfolio__card-image">
+         </div>
+         <div class="portfolio__card">
+          <img src="./images/portfolio3.jpg" alt="" class="portfolio__card-image">
+         </div>
        </div>
-       <div class="portfolio__card">
-        <img src="./images/portfolio2.jpg" alt="" class="portfolio__card-image">
-       </div>
-       <div class="portfolio__card">
-        <img src="./images/portfolio3.jpg" alt="" class="portfolio__card-image">
-       </div>
-     </div>
+      </div>
+    </section>
+    </main>
+  </div>
 
-
-    </div>
-  </section>
-</main>
 </body>
 </html>
