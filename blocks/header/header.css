@@ -1,14 +1,14 @@
 .header {
-  max-width: 1280px;
+  max-width: 944px;
   margin: 0 auto;
-  padding: 41px 168px 0;
+  padding: 41px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+/*@media (min-width: 768px) and (max-width: 1023px) {
   .header {
     padding: 38px 100px 0;
   }
@@ -18,7 +18,7 @@
   .header {
     padding: 35px 56px 0;
   }
-}
+}*/
 
 @media (min-width: 320px) and (max-width: 424px) {
   .header {

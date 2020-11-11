@@ -1,0 +1,21 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 384px;
+  gap: 116px;
+  grid-template-areas: 
+  "content img";
+  padding: 113px 0 71px;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "img"
+    "content";
+    padding: 46px 0 50px;
+    justify-content: center;
+  }
+}

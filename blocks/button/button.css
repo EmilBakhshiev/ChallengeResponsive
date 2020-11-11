@@ -1,0 +1,7 @@
+.button {
+  background: #ffbb01;
+  box-shadow: 0px 4px 0px #b68500;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

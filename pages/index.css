@@ -7,3 +7,15 @@
 @import url(../blocks/social-links/social-links.css);
 @import url(../blocks/social-links/__link/social-links__link.css);
 @import url(../blocks/social-links/__img/social-links__img.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/intro/title-main/intro__title-main.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__img/intro__img.css);
