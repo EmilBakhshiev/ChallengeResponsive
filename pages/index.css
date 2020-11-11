@@ -24,8 +24,7 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/portfolio/__card-image/portfolio__card-image.css);
-@import url(../blocks/portfolio/__card/portfolio__card.css);
-@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/card/card.css);
 
 /*modificators start*/
 @import url(../blocks/title/_place/title_place_portfolio.css);
