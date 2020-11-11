@@ -1,0 +1,7 @@
+.portfolio__card-image{
+    max-width: 304px;
+    height: 304px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
