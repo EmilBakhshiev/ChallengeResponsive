@@ -6,6 +6,13 @@
   line-height: 15.6px;
 }
 
+@media (max-width: 767px) {
+  .intro__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 424px) {
   .intro__button {
     margin-top: 58px;
