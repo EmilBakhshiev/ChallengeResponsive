@@ -1,27 +1,3 @@
 .content {
-  max-width: 944px;
-  margin: 0 auto;
-}
-
-/*@media (max-width: 768px) {
-  .content{
-    max-width: 1024px;
-  }
-}
-
-@media (max-width: 425px) {
-  .content{
-    max-width: 425px;
-    padding: 46px 27px 50px;
-  }
-}*/
-
-@media (min-width: 320px) and (max-width: 424px) {
-  .content{
-    margin: 0;
-    padding: 0 27px 0;
-    /*Задавать падинги только самым крайним значениям секции странно, зато если задавать падинги секциям их можно будет красиво вырывать из контекста.
-    НО если задать их здесь, можно будет менять падинги для всей секции за раз
-   */
-  }
+  margin: 0;
 }
