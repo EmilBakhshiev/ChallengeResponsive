@@ -1,0 +1,18 @@
+.features__content {
+  margin: 0 auto;
+  width: 944px;
+  padding: 64px 0 92px;
+}
+
+@media (max-width: 1023px) {
+  .features__content {
+    width: 83%;
+    padding-bottom: 71px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .features__content {
+    padding-bottom: 59px;
+  }
+}
