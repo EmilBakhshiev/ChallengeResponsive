@@ -1,12 +1,9 @@
 .intro__img {
   grid-area: img;
-  background-image: url(../../../images/Keanu.jpg);
-  max-width: 362px;
-  max-height: 362px;
+  width: 362px;
+  height: 362px;
   border-radius: 362px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  object-fit: cover;
   border: 11px #fff solid;
 
 }

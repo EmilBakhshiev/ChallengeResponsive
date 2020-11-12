@@ -30,6 +30,7 @@
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__content/features__content.css);
 @import url(../blocks/promises-grid/promises-grid.css);
+@import url(../blocks/promis/promis.css);
 @import url(../blocks/promis/__img/promis__img.css);
 
 /*modificators start*/
