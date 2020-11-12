@@ -1,0 +1,7 @@
+.portfolio__conteiner{
+    position: relative;
+    max-width: 57%;
+    z-index: 6;
+    margin-top: 172px;
+    margin-left: 30px;
+}
