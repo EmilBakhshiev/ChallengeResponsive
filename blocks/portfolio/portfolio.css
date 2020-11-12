@@ -3,3 +3,10 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
+@media (max-width: 320px){
+    .portfolio{
+        padding-top: 61px;
+        padding-bottom: 89px;
+    }
+}

@@ -5,6 +5,6 @@
 
 @media (max-width: 965px){
     .wrapper{
-        max-width: 800px;
+        width: 83%;
     }
 }
