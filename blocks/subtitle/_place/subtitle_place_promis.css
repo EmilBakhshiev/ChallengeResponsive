@@ -1,0 +1,9 @@
+.subtitle_place_promis {
+  margin-bottom: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .promises-subtitle_place_promis {
+    margin-bottom: 6px;
+  }
+}

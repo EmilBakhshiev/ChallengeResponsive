@@ -9,15 +9,15 @@
 @import url(../blocks/social-links/__img/social-links__img.css);
 
 @import url(../blocks/content/content.css);
-
-@import url(../blocks/button/button.css);
+@import url(../blocks/subtitle/subtitle.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__content/intro__content.css);
-@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/intro/_subtitle/intro__subtitle.css);
 @import url(../blocks/intro/title-main/intro__title-main.css);
 @import url(../blocks/text/text.css);
 @import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__link/intro__link.css);
 @import url(../blocks/intro/__img/intro__img.css);
 
 @import url(../blocks/portfolio/portfolio.css);
@@ -32,6 +32,17 @@
 @import url(../blocks/portfolio/__conteiner/portfolio__conteiner.css);
 
 
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__content/features__content.css);
+@import url(../blocks/promises-grid/promises-grid.css);
+@import url(../blocks/promis/promis.css);
+@import url(../blocks/promis/__img/promis__img.css);
+
 /*modificators start*/
 @import url(../blocks/title/_place/title_place_portfolio.css);
+@import url(../blocks/subtitle/_place/subtitle_place_promis.css);
 /*modificators end*/
+
+/*mix start*/
+@import url(../blocks/button/button.css);
+/*mix end*/
