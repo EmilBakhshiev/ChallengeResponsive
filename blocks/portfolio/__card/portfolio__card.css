@@ -1,0 +1,39 @@
+.portfolio__card{
+    width: 32.204%;
+    margin: 0px;
+    margin-right: 16px;
+    position: relative;
+    border-radius: 6px;
+    transition: .8s ease;
+}
+
+.portfolio__card:last-child{
+    margin-right: 0;
+}
+
+.portfolio__card::before{
+    content: '';
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1;
+    border-radius: 6px;
+    transition: .5s ease;
+}
+
+.portfolio__card::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.portfolio__card:hover::before{
+    opacity: .1;
+}
+.portfolio__card:hover{
+    transform: translateY(-10px);
+    
+}
