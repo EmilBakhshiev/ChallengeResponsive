@@ -24,8 +24,13 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/portfolio/__card-image/portfolio__card-image.css);
-@import url(../blocks/portfolio/__card/portfolio__card.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__conteiner/portfolio__conteiner.css);
+
 
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__content/features__content.css);
