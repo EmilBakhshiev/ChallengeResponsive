@@ -4,7 +4,7 @@
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 425px){
     .galery__image{
         width: 126px;
         height: 126px;

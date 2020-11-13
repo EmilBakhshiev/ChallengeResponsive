@@ -5,7 +5,6 @@
     grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
-    
 }
 
 @media (max-width: 965px){
@@ -14,7 +13,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 425px){
     .galery__content{
         display: flex;
         gap: 0;
@@ -22,15 +21,14 @@
         padding-bottom: 15px;
     }
     .galery__content::-webkit-scrollbar{
-        background: #CECECE;
+        background: #cecece;
         border-radius: 6px;
         height: 4px;
-        
     }
 
 
     .galery__content::-webkit-scrollbar-thumb{
-        background: #FFBB01;
+        background: #ffbb01;
         border-radius: 6px;
     }
 }
