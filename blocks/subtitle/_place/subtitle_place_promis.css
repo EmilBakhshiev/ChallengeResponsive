@@ -3,7 +3,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .promises-subtitle_place_promis {
+  .subtitle_place_promis {
     margin-bottom: 6px;
+    line-height: 28px;
+    font-size: 18px;
   }
 }
