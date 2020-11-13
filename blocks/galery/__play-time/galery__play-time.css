@@ -1,0 +1,13 @@
+.galery__play-time{
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.32px;
+    top: 8px;
+    right: 28px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+}

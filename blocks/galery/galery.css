@@ -1,0 +1,12 @@
+.galery{
+    background: #141f35;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+@media (max-width: 425px){
+    .galery{
+        padding-top: 35px;
+        padding-bottom: 34px;
+    }
+}

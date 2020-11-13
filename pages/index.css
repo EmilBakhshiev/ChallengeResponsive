@@ -37,6 +37,16 @@
 @import url(../blocks/promis/promis.css);
 @import url(../blocks/promis/__img/promis__img.css);
 
+/*galery start*/
+@import url(../blocks/galery/galery.css);
+@import url(../blocks/galery/__content/galery__content.css);
+@import url(../blocks/galery/__image/galery__image.css);
+@import url(../blocks/galery/__video/galery__video.css);
+@import url(../blocks/galery/__play-button/galery__play-button.css);
+@import url(../blocks/galery/__play-click/galery__play-click.css);
+@import url(../blocks/galery/__play-time/galery__play-time.css);
+/*galery end*/
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/contact-form/contact-form.css);
