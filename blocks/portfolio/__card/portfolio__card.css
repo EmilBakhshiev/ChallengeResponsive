@@ -44,13 +44,6 @@
     }
 }
 
-@media (max-width: 425px){
-    .portfolio__card{
-        
-        margin-bottom: 35px;
-    }
-}
-
 @media (max-width: 320px){
     .portfolio__card{
         margin-bottom: 35px;
