@@ -1,171 +1,217 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Discord</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Discord</title>
-</head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img class="logo" src="images/logo.png" alt="Логотип.">
+        <ul class="social-links">
+          <li class="social-links__link">
+            <a href="#">
+              <img class="social-links__img" src="images/github.png" alt="ГитХаб.">
+            </a>
+          </li>
+          <li class="social-links__link">
+            <a href="#">
+              <img class="social-links__img" src="images/twitter.png" alt="Твиттер.">
+            </a>
+          </li>
+          <li class="social-links__link">
+            <a href="#">
+              <img class="social-links__img" src="images/instagram.png" alt="Инстаграм.">
+            </a>
+          </li>
+          <li class="social-links__link">
+            <a href="#">
+              <img class="social-links__img" src="images/facebook.png" alt="Фэйсбук.">
+            </a>
+          </li>
+        </ul>
+      </header>
 
-<body>
-  <div class="page">
-    <!-- 
-    1) Повесить светяшки, когда будет все закончено
-    2) Поправить интерльяж
-    3) Проверить семантику и общий код стиль
-    4) Проверить все загловки и текст по соответствию семантики
+      <main class="content">
+        <section class="intro">
+          <div class="intro__content">
+            <p class="intro__subtitle">Фрилансер</p>
+            <h1 class="intro__title-main">Петр Федоров</h1>
+            <p class="text">Разрабатываю сайты для малого и среднего бизнеса.
+              У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
+            </p>
+            <div class="intro__button button">
+              <a class="intro__link" href="#">Бесплатная консультация</a>
+            </div>
+          </div>       
+          <img class="intro__img" src="images/Keanu.jpg" alt="Ваше фото.">                 
+        </section>
 
-    Пока есть адаптив только на 2 крайних значения.
-    320-424  425-767  768-1023  1024-1280  -->
-    <header class="header">
-      <img class="logo" src="images/logo.png" alt="Логотип.">
-      <ul class="social-links">
-        <li class="social-links__link">
-          <a href="#">
-            <img class="social-links__img" src="images/github.png" alt="ГитХаб.">
-          </a>
-        </li>
-        <li class="social-links__link">
-          <a href="#">
-            <img class="social-links__img" src="images/twitter.png" alt="Твиттер.">
-          </a>
-        </li>
-        <li class="social-links__link">
-          <a href="#">
-            <img class="social-links__img" src="images/instagram.png" alt="Инстаграм.">
-          </a>
-        </li>
-        <li class="social-links__link">
-          <a href="#">
-            <img class="social-links__img" src="images/facebook.png" alt="Фэйсбук.">
-          </a>
-        </li>
-      </ul>
-    </header>
-
-    <main class="content">
-      <section class="intro">
-        <div class="intro__content">
-          <p class="intro__subtitle">Фрилансер</p>
-          <h1 class="intro__title-main">Петр Федоров</h1>
-          <p class="text">Разрабатываю сайты для малого и среднего бизнеса.
-            <!-- Переиспользуется везде -->
-            У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
-          </p>
-          <div class="intro__button button">
-            <a class="intro__link" href="#">Бесплатная консультация</a>
-            <!-- у всех кнопок разный размер, теоретически переиспользовать нельзя, только микс создать -->
+        <section class="features">
+          <div class="features__content">
+            <h2 class="title">Со мной удобно работать</h2>
+            <ul class="promises-grid">
+              <li class="promis">
+                <img class="promis__img" src="images/offer.png" alt="Документ.">
+                <p class="subtitle subtitle_place_promis">По договору</p>
+                <p class="text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
+                  как ИП без НДС.
+                </p>
+              </li>
+              <li class="promis">
+                <img class="promis__img" src="images/deadline.png" alt="Календарь.">
+                <p class="subtitle subtitle_place_promis">Точно в срок</p>
+                <p class="text">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+                  плачу неустойку.
+                </p>
+              </li>
+              <li class="promis">
+                <img class="promis__img" src="images/agreement.png" alt="Рукопожатие.">
+                <p class="subtitle subtitle_place_promis">Ценник под вас</p>
+                <p class="text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+                  складывается цена.
+                </p>
+              </li>
+              <li class="promis">
+                <img class="promis__img" src="images/steps.png" alt="Грамота.">
+                <p class="subtitle subtitle_place_promis">Премежуточные итоги</p>
+                <p class="text">Показываю работу поэтапно, а не в&nbsp;последий момент перед
+                  крайним&nbsp;сроком.
+                </p>
+              </li>
+              <li class="promis">
+                <img class="promis__img" src="images/storage.png" alt="Сервер.">
+                <p class="subtitle subtitle_place_promis">Хостинг и домен </p>
+                <p class="text">Если мы договорились о цене проекта, в&nbsp;неё входит всё: домен и хостинг
+                  на год&nbsp;+ SSL сертификат.
+                </p>
+              </li>
+              <li class="promis">
+                <img class="promis__img" src="images/conversation.png" alt="Дискутирующие люди.">
+                <p class="subtitle subtitle_place_promis">Не брошу после сдачи</p>
+                <p class="text">Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                  видео&#8209;инструкции.
+                </p>
+              </li>
+            </ul>
           </div>
-        </div>
-        <img class="intro__img" src="images/Keanu.jpg" alt="Ваше фото.">
-        <!-- но у нас 2 вида кнопок разных цветов и форм   =_=!!! -->
-      </section>
+        </section>
 
-      <section class="features">
-        <div class="features__content">
-          <p class="title">Со мной удобно работать</p>
-          <ul class="promises-grid">
-            <li class="promis">
-              <img class="promis__img" src="images/offer.png" alt="Документ.">
-              <p class="subtitle subtitle_place_promis">По договору</p>
-              <p class="text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
-                как ИП без НДС.</p>
-            </li>
-            <li class="promis">
-              <img class="promis__img" src="images/deadline.png" alt="Календарь.">
-              <p class="subtitle subtitle_place_promis">Точно в срок</p>
-              <p class="text">В договоре прописана моя ответственность за срок проекта. Если просрочу —
-                плачу неустойку.</p>
-            </li>
-            <li class="promis">
-              <img class="promis__img" src="images/agreement.png" alt="Рукопожатие.">
-              <p class="subtitle subtitle_place_promis">Ценник под вас</p>
-              <p class="text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
-                складывается цена.</p>
-            </li>
-            <li class="promis">
-              <img class="promis__img" src="images/steps.png" alt="Грамота.">
-              <p class="subtitle subtitle_place_promis">Премежуточные итоги</p>
-              <p class="text">Показываю работу поэтапно, а не в&nbsp;последий момент перед
-                крайним&nbsp;сроком.</p>
-            </li>
-            <li class="promis">
-              <img class="promis__img" src="images/storage.png" alt="Сервер.">
-              <p class="subtitle subtitle_place_promis">Хостинг и домен </p>
-              <p class="text">Если мы договорились о цене проекта, в&nbsp;неё входит всё: домен и хостинг
-                на год&nbsp;+ SSL сертификат.</p>
-            </li>
-            <li class="promis">
-              <img class="promis__img" src="images/conversation.png" alt="Дискутирующие люди.">
-              <p class="subtitle subtitle_place_promis">Не брошу после сдачи</p>
-              <p class="text">Научу вас или вашего сотрудника пользоваться сайтом, запишу
-                видео&#8209;инструкции.</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="portfolio">
-        <div class="wrapper">
-          <h2 class="title title_place_portfolio">Выполненные проекты</h2>
-          <div class="portfolio__cards">
-            <div class="portfolio__card">
-              <img src="./images/portfolio1.jpg" alt="Шамарель" class="portfolio__card-image">
-              <div class="portfolio__conteiner">
-                <p class="portfolio__title">The curious corner
-                  of chamarel</p>
-                <a href="#" class="portfolio__button">Посмотреть</a>
+        <section class="portfolio">
+          <div class="wrapper">
+            <h2 class="title title_place_portfolio">Выполненные проекты</h2>
+            <div class="portfolio__cards">
+              <div class="portfolio__card">
+                <img src="./images/portfolio1.jpg" alt="Шамарель" class="portfolio__card-image">
+                <div class="portfolio__conteiner">
+                  <p class="portfolio__title">The curious corner
+                    of chamarel</p>
+                  <a href="#" class="portfolio__button">Посмотреть</a>
+                </div>
               </div>
-            </div>
-            <div class="portfolio__card">
-              <img src="./images/portfolio2.jpg" alt="Джимхана клуб" class="portfolio__card-image">
-              <div class="portfolio__conteiner">
-                <p class="portfolio__title">Gymkhana club golf
-                  course</p>
-                <a href="#" class="portfolio__button">Посмотреть</a>
+              <div class="portfolio__card">
+                <img src="./images/portfolio2.jpg" alt="Джимхана клуб" class="portfolio__card-image">
+                <div class="portfolio__conteiner">
+                  <p class="portfolio__title">Gymkhana club golf
+                    course</p>
+                  <a href="#" class="portfolio__button">Посмотреть</a>
+                </div>
               </div>
-            </div>
-            <div class="portfolio__card">
-              <img src="./images/portfolio3.jpg" alt="Водопад Тамарен" class="portfolio__card-image">
-              <div class="portfolio__conteiner">
-                <p class="portfolio__title">Tamarind falls hiking
-                  trip - full day</p>
-                <a href="#" class="portfolio__button">Посмотреть</a>
+              <div class="portfolio__card">
+                <img src="./images/portfolio3.jpg" alt="Водопад Тамарен" class="portfolio__card-image">
+                <div class="portfolio__conteiner">
+                  <p class="portfolio__title">Tamarind falls hiking
+                    trip - full day</p>
+                  <a href="#" class="portfolio__button">Посмотреть</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        
+           <section class="galery">
+            <div class="galery__content">
+              <img src="./images/galery-1.jpg" alt="Комната" class="galery__image">
+              <img src="./images/galery-2.jpg" alt="Кафе" class="galery__image">
+              <img src="./images/galery-3.jpg" alt="Встреча коллег" class="galery__image">
+              <img src="./images/galery-4.jpg" alt="Столовая" class="galery__image">
+              <img src="./images/galery-5.jpg" alt="Фигма" class="galery__image">
+              <div class="galery__video">
+                <img src="./images/galery-6.jpg" alt="Видео_1" class="galery__image">
+                <p class="galery__play-time">0:28</p>
+                <a href="#" class="galery__play-click"><img src="./images/play_circle_filled.svg" alt="Воспроизвести" class="galery__play-button"></a>
+              </div>
+              <img src="./images/galery-7.jpg" alt="Библиотека" class="galery__image">
+              <img src="./images/galery-8.jpg" alt="Стол" class="galery__image">
+              <img src="./images/galery-9.jpg" alt="Сотрудница Анджела" class="galery__image">
+              <img src="./images/galery-10.jpg" alt="Офис фигма" class="galery__image">
+              <div class="galery__video">
+              <img src="./images/galery-11.jpg" alt="Видео_2" class="galery__image">
+              <p class="galery__play-time">0:28</p>
+                <a href="#" class="galery__play-click"><img src="./images/play_circle_filled.svg" alt="Воспроизвести" class="galery__play-button"></a>
+            </div>
+              <img src="./images/galery-12.jpg" alt="Обсуждения" class="galery__image">
+            </div>
+          </section>
+      </main>
 
-      <section class="galery">
-        <div class="galery__content">
-          <img src="./images/galery-1.jpg" alt="Комната" class="galery__image">
-          <img src="./images/galery-2.jpg" alt="Кафе" class="galery__image">
-          <img src="./images/galery-3.jpg" alt="Встреча коллег" class="galery__image">
-          <img src="./images/galery-4.jpg" alt="Столовая" class="galery__image">
-          <img src="./images/galery-5.jpg" alt="Фигма" class="galery__image">
-          <div class="galery__video">
-            <img src="./images/galery-6.jpg" alt="Видео_1" class="galery__image">
-            <p class="galery__play-time">0:28</p>
-            <a href="#" class="galery__play-click"><img src="./images/play_circle_filled.svg" alt="Воспроизвести" class="galery__play-button"></a>
+      <footer class="footer">
+        <h2 class="title">Свяжитесь со мной</h2>
+        <div class="footer__content">
+          <form class="contact-form">
+            <p class="contact-form__title">Можете <span class="hidden-word"></span> оставить заявку,
+              я позвоню вам сегодня
+            </p>
+            <input class="contact-form__name form-style" type="text" name="username" placeholder="Ваше имя">
+            <input class="contact-form__phone form-style" type="tel" name="phone" placeholder="Ваш телефон">
+            <button class="contact-form__button button" type="submit">Бесплатная консультация</button>
+          </form>
+          <div class="footer__contact footer__contact_place_left">
+            <p class="subtitle">Телефон</p>
+            <p class="text">+7 999 123 45 67</p>
           </div>
-          <img src="./images/galery-7.jpg" alt="Библиотека" class="galery__image">
-          <img src="./images/galery-8.jpg" alt="Стол" class="galery__image">
-          <img src="./images/galery-9.jpg" alt="Сотрудница Анджела" class="galery__image">
-          <img src="./images/galery-10.jpg" alt="Офис фигма" class="galery__image">
-          <div class="galery__video">
-          <img src="./images/galery-11.jpg" alt="Видео_2" class="galery__image">
-          <p class="galery__play-time">0:28</p>
-            <a href="#" class="galery__play-click"><img src="./images/play_circle_filled.svg" alt="Воспроизвести" class="galery__play-button"></a>
+          <div class="footer__contact footer__contact_place_right">
+            <p class="subtitle">Почта</p>
+            <p class="text">ivanov@mail.ru</p>
+          </div>
+          <div class="footer__contact footer__contact_place_bottom">
+            <p class="subtitle">Соцсети</p>
+            <ul class="footer__links">
+              <li><a class="footer__link text" href="#">t.me/ivanov</a></li>
+              <li><a class="footer__link text" href="#">vk.me/ivanov</a></li>
+              <li><a class="footer__link text" href="#">fb.me/ivanov</a></li>
+            </ul>
+          </div>
+          <div class="footer__contact footer__contact_place_social-links">
+            <ul class="social-links">
+              <li class="social-links__link">
+                <a href="#">
+                  <img class="social-links__img" src="images/github.png" alt="ГитХаб.">
+                </a>
+              </li>
+              <li class="social-links__link">
+                <a href="#">
+                  <img class="social-links__img" src="images/twitter.png" alt="Твиттер.">
+                </a>
+              </li>
+              <li class="social-links__link">
+                <a href="#">
+                  <img class="social-links__img" src="images/instagram.png" alt="Инстаграм.">
+                </a>
+              </li>
+              <li class="social-links__link">
+                <a href="#">
+                  <img class="social-links__img" src="images/facebook.png" alt="Фэйсбук.">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a class="footer__security-link text" href="#">Политика конфиденциальности</a>
         </div>
-          <img src="./images/galery-12.jpg" alt="Обсуждения" class="galery__image">
-        </div>
-
-      </section>
-    </main>
-  </div>
-
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>

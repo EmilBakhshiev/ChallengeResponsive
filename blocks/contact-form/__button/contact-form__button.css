@@ -1,0 +1,15 @@
+.contact-form__button {
+  height: 66px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 15.6px;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .contact-form__button {
+    height: 54px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+}

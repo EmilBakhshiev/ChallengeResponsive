@@ -1,0 +1,10 @@
+.footer__contact_place_left {
+  grid-area: contact_left;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__contact_place_left {
+    margin-top: 53px;
+    display:block;
+  }
+}

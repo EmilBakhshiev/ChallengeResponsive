@@ -1,0 +1,15 @@
+.contact-form__title {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 -1.5%;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .contact-form__title  {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
