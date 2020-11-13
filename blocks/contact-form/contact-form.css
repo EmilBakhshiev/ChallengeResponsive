@@ -20,5 +20,6 @@
 @media (min-width: 320px) and (max-width: 424px) {
   .contact-form {
     height: 393px;
+    padding: 9.5% 8.5% 12.5%;
   }
 }
