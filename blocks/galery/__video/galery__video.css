@@ -1,0 +1,13 @@
+.galery__video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 425px){
+    .galery__video{
+       width: 126px;
+       height: 126px;
+       margin-right: 15px;
+    }
+}

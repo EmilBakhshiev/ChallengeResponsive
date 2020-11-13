@@ -1,0 +1,13 @@
+.galery__image{
+    position: relative;
+    width: 100%;
+}
+
+
+@media (max-width: 320px){
+    .galery__image{
+        width: 126px;
+        height: 126px;
+        margin-right: 15px;
+    }
+}
