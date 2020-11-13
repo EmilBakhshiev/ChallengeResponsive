@@ -1,0 +1,21 @@
+.portfolio__conteiner{
+    position: relative;
+    max-width: 57%;
+    z-index: 6;
+    margin-top: 172px;
+    margin-left: 30px;
+}
+@media (max-width: 965px){
+    .portfolio__conteiner{
+       width: 100%; 
+    } 
+}
+
+@media (max-width: 425px){
+    .portfolio__conteiner{
+       width: 100%;
+       margin-top: 150px;
+       margin-left: 24px; 
+    } 
+}
+
