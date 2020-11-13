@@ -1,4 +1,4 @@
-.social-links {
+.footer__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .social-links  {
-    justify-content: start;
+  .footer__links {
+    display: block;
   }
 }

@@ -1,0 +1,9 @@
+.hidden-word::before {
+  content: 'просто';
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .hidden-word::before {
+    content: '';
+  }
+}

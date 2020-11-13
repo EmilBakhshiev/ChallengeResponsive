@@ -1,0 +1,16 @@
+.footer__security-link {
+  grid-area: link;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  color: #949494;
+  align-self: end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__security-link {
+    align-self: start;
+    margin-top: 26px;
+  }
+}
