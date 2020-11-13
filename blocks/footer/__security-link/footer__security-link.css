@@ -8,6 +8,10 @@
   align-self: end;
 }
 
+.footer__security-link:hover {
+  color: #fff;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__security-link {
     align-self: start;
