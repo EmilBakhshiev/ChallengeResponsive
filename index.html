@@ -12,6 +12,9 @@
     2) Поправить интерльяж
     3) Проверить семантику и общий код стиль
     4) Проверить все загловки и текст по соответствию семантики
+    5) переделать падинги-марджины в проценты?
+
+    P.S: я знаю о существовании jira, но мне лень
 
     Пока есть адаптив только на 2 крайних значения.
     320-424  425-767  768-1023  1024-1280  -->
@@ -46,14 +49,14 @@
         <div class="intro__content">
           <p class="intro__subtitle">Фрилансер</p>
           <h1 class="intro__title-main">Петр Федоров</h1>
-          <p class="text">Разрабатываю сайты для малого и среднего бизнеса. <!-- Переиспользуется везде -->
+          <p class="text">Разрабатываю сайты для малого и среднего бизнеса.
             У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
           </p>
           <div class="intro__button button">
-            <a class="intro__link" href="#">Бесплатная консультация</a> <!-- у всех кнопок разный размер, теоретически переиспользовать нельзя, только микс создать -->
+            <a class="intro__link" href="#">Бесплатная консультация</a>
           </div>
         </div>       
-        <img class="intro__img" src="images/Keanu.jpg" alt="Ваше фото.">                                    <!-- но у нас 2 вида кнопок разных цветов и форм   =_=!!! -->
+        <img class="intro__img" src="images/Keanu.jpg" alt="Ваше фото.">                 
       </section>
 
       <section class="features">
@@ -94,7 +97,7 @@
         </div>
       </section>
 
-       <section class="portfolio">
+      <section class="portfolio">
         <div class="wrapper">
           <h2 class="title title_place_portfolio">Выполненные проекты</h2>
           <div class="portfolio__cards">
@@ -109,8 +112,63 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </main>
+
+    <footer class="footer">
+      <div class="title">Свяжитесь со мной</div>
+      <div class="footer__content">
+        <form class="contact-form">
+          <p class="contact-form__title">Можете <span class="hidden-word"></span> оставить заявку,
+            я позвоню вам сегодня
+          </p>
+          <input class="contact-form__name form-style" type="text" name="username" placeholder="Ваше имя">
+          <input class="contact-form__phone form-style" type="tel" name="phone" placeholder="Ваш телефон">
+          <button class="contact-form__button button" type="submit">Бесплатная консультация</button>
+        </form>
+        <div class="footer__contact footer__contact_place_left">
+          <p class="subtitle">Телефон</p>
+          <p class="text">+7 999 123 45 67</p>
+        </div>
+        <div class="footer__contact footer__contact_place_right">
+          <p class="subtitle">Почта</p>
+          <p class="text">ivanov@mail.ru</p>
+        </div>
+        <div class="footer__contact footer__contact_place_bottom">
+          <p class="subtitle">Соцсети</p>
+          <ul class="footer__links">
+            <li><a class="footer__link text" href="#">t.me/ivanov</a></li>
+            <li><a class="footer__link text" href="#">vk.me/ivanov</a></li>
+            <li><a class="footer__link text" href="#">fb.me/ivanov</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact footer__contact_place_social-links">
+          <ul class="social-links">
+            <li class="social-links__link">
+              <a href="#">
+                <img class="social-links__img" src="images/github.png" alt="ГитХаб.">
+              </a>
+            </li>
+            <li class="social-links__link">
+              <a href="#">
+                <img class="social-links__img" src="images/twitter.png" alt="Твиттер.">
+              </a>
+            </li>
+            <li class="social-links__link">
+              <a href="#">
+                <img class="social-links__img" src="images/instagram.png" alt="Инстаграм.">
+              </a>
+            </li>
+            <li class="social-links__link">
+              <a href="#">
+                <img class="social-links__img" src="images/facebook.png" alt="Фэйсбук.">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a class="footer__security-link text" href="#">Политика конфиденциальности</a>
+      </div>
+    </footer>
   </div>
 
 </body>
